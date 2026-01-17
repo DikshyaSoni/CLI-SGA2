@@ -1,0 +1,8 @@
+alice123@gmail.com
+bob!@example.com
+charlie@example.com
+david@example123.com
+eve@domain.com
+alice123@gmail.com
+john.doe@website.com
+jane@site

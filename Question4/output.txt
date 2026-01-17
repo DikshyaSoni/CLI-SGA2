@@ -1,0 +1,68 @@
+OUTPUTS:  
+
+    1:         mkdir Question4
+
+=>      NO OUPUT
+
+
+    2:         cd Question4
+
+=>      NO OUPUT
+
+
+    3:         cat > emails.txt <<EOL
+                 alice123@gmail.com
+                 bob!@example.com
+                 charlie@example.com
+                 david@example123.com
+                 eve@domain.com
+                 alice123@gmail.com
+                 john.doe@website.com
+                 jane@site
+                 EOL
+
+=>      NO OUPUT
+
+
+    4:         cat emails.txt
+
+
+=>               alice123@gmail.com
+                 bob!@example.com
+                 charlie@example.com
+                 david@example123.com
+                 eve@domain.com
+                 alice123@gmail.com
+                 john.doe@website.com
+                 jane@site
+
+
+    5:         nano emailcleaner.sh
+
+ =>        nano editer opens
+
+
+    6:         chmod +x emailcleaner.sh
+
+=>        NO OUPUT
+
+
+
+    7:         ./emailcleaner.sh
+
+ =>        email cleaning done . check valid .txt and invalid.txt
+
+
+    8:          cat valid.txt
+
+ =>          eve@domain.com
+                 alice123@gmail.com
+                 charlie@example.com
+
+
+    9:          cat invalid.txt
+
+=>           bob!@example.com
+                 john.doe@website.com
+                 jane@site
+                 david@example123.com

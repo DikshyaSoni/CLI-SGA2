@@ -1,0 +1,4 @@
+bob!@example.com
+david@example123.com
+john.doe@website.com
+jane@site

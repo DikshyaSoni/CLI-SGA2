@@ -1,0 +1,29 @@
+COMMAND:
+
+    1:         mkdir Question4
+
+    2:         cd Question4
+
+    3:         cat > emails.txt <<EOL
+                 alice123@gmail.com
+                 bob!@example.com
+                 charlie@example.com
+                 david@example123.com
+                 eve@domain.com
+                 alice123@gmail.com
+                 john.doe@website.com
+                 jane@site
+                 EOL
+
+
+    4:         cat emails.txt
+
+    5:         nano emailcleaner.sh
+
+    6:         chmod +x emailcleaner.sh
+
+    7:         ./emailcleaner.sh
+
+    8:          cat valid.txt
+
+    9:          cat invalid.txt

@@ -1,0 +1,3 @@
+alice123@gmail.com
+charlie@example.com
+eve@domain.com
