@@ -1,0 +1,10 @@
+COMMAND:
+            1: mkdir Question10
+            
+            2:  cd Question10
+
+            3: nano signal_demo.c
+
+            4:  gcc signal_demo.c -o signal_demo
+
+            5:   ./signal_demo

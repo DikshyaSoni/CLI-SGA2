@@ -1,0 +1,5 @@
+ output :
+
+  Parent process running indefinitely (PID: 51971)
+Parent received SIGTERM. Cleaning up...
+Parent received SIGINT. Exiting gracefully.

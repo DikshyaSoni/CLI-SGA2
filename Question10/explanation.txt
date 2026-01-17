@@ -1,0 +1,30 @@
+explanation:
+
+ 
+            1: mkdir Question10
+
+           =>    Created folder for Question 9
+
+
+            2:  cd Question10
+
+           =>    move to folder Question10
+
+
+            3: nano signal_demo.c
+
+           => open nano editor 
+
+            4:  gcc signal_demo.c -o signal_demo
+
+           =>   This command compiles the C program and creates an executable named signal_demo.
+
+
+            5:   ./signal_demo
+
+           =>   The parent process starts running indefinitely while two child processes are created.
+
+        After 5 seconds, the first child sends SIGTERM to the parent.
+   The parent handles SIGTERM by printing a cleanup message.
+        After 10 seconds, the second child sends SIGINT to the parent.
+   The parent handles SIGINT differently and exits gracefully.

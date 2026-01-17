@@ -1,0 +1,12 @@
+COMMAND:
+         1:  cd ~/SGA2-CLI
+         
+         2:  mkdir Question9
+
+         3:   cd Question9
+
+         4:  nano zombie_prevention.c
+
+         5: gcc zombie_prevention.c -o zombie_prevention
+
+         6: ./zombie_prevention

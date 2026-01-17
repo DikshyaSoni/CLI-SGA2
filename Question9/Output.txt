@@ -1,0 +1,31 @@
+OUTPUT:
+
+ 
+         1:  cd ~/SGA2-CLI
+
+         => NO OUTPUT
+         
+         2:  mkdir Question9
+
+         => No OUPUT
+
+         3:   cd Question9
+
+         => NO OUTPUT
+
+         4:  nano zombie_prevention.c
+
+         => NO OUPUT
+
+         5: gcc zombie_prevention.c -o zombie_prevention
+
+         => NO OUTPUT
+
+         6: ./zombie_prevention
+
+         =>  Child process created with PID: 51304
+             Child process created with PID: 51305
+             Child process created with PID: 51306
+             Parent cleaned up child with PID: 51304
+             Parent cleaned up child with PID: 51305
+             Parent cleaned up child with PID: 51306

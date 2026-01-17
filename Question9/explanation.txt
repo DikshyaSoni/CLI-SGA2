@@ -1,0 +1,26 @@
+EXPLANATION:
+  
+         
+         1:  mkdir Question9
+
+=>     Created folder for Question 9
+
+
+         2:   cd Question9
+
+=>    move to the folder Question9
+
+         3:  nano zombie_prevention.c
+
+=>        Wrote a C program to create multiple child processes and prevent zombie processes
+
+         4: gcc zombie_prevention.c -o zombie_prevention
+
+=>        Compiled the C program
+
+
+
+         5: ./zombie_prevention
+
+=>        Executed the program; parent process waits for each child and prints the PID
+         This ensures no zombie processes remain
