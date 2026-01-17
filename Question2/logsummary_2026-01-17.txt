@@ -1,0 +1,5 @@
+Total log entries: 6
+INFO: 2
+WARNING: 1
+ERROR: 2
+Most recent ERROR: 2025-01-12 10:17:10 ERROR Network timeout

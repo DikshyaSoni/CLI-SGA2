@@ -1,0 +1,41 @@
+OUTPUTS:
+        
+      1:   mkdir Question2
+
+=>    NO OUTPUT
+
+        
+      2:   cd Question2
+
+=>    NO OUTPUT
+
+        
+      3:   nano sample.log
+
+=>    (nano editor opened)
+    
+        
+      4:   nano log_analyze.sh
+
+=>    (nano editor opened)
+    
+        
+      5:   chmod +x log_analyze.sh
+
+=>    NO OUTPUT
+        
+      6:   ./log_analyze.sh sample.log
+
+=>    Total log entries: 6
+      INFO: 2
+      WARNING: 1
+      ERROR: 2
+      Most recent ERROR: 2025-01-12 10:17:10 ERROR Network timeout
+       
+      7:   ./log_analyze.sh
+
+=>    Error: Please provide exactly one log file.
+        
+      8:   ./log_analyze.sh notexist.log
+        
+=>   Error: File does not exist or is not readable.

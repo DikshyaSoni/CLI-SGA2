@@ -1,0 +1,19 @@
+COMMANDS:
+   
+        
+      1:   mkdir Question2
+        
+      2:   cd Question2
+        
+      3:   nano sample.log
+        
+      4:   nano log_analyze.sh
+        
+      5:   chmod +x log_analyze.sh
+        
+      6:   ./log_analyze.sh sample.log
+       
+      7:   ./log_analyze.sh
+        
+      8:   ./log_analyze.sh notexist.log
+        
