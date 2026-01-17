@@ -1,0 +1,2 @@
+linux is powerful
+shell scripting is usefull

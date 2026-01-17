@@ -1,0 +1,22 @@
+
+
+COMMANDS :
+
+        1:   mkdir Question1
+                  cd Question1
+
+        2:   nano analyze.sh
+
+    
+        3:   chmod +x analyze.sh
+
+        4:   nano sample.txt
+
+        5:   ./analyze.sh sample.txt
+
+        6:   mkdir testdir
+             touch testdir/a.txt testdir/b.txt testdir/image.png
+
+        7:   ./analyze.sh testdir
+
+        8:   ./analyze.sh

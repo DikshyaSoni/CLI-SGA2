@@ -1,0 +1,47 @@
+OUTPUT :
+
+
+ 
+        1:   mkdir Question1
+                  cd Question1
+
+    => NO OUTPUT
+
+        2:   nano analyze.sh
+
+    =>  (nano editor opened)
+    
+        3:   chmod +x analyze.sh
+
+    => NO OUTPUT
+       
+        4:   nano sample.txt
+
+    => (nano editor opened)
+
+        5:   ./analyze.sh sample.txt
+
+    =>     File analysis:
+        Lines: 2
+        Words: 6
+        Characters: 42
+ 
+        6:   mkdir testdir
+             touch testdir/a.txt testdir/b.txt testdir/image.png
+
+    => NO OUTPUT
+    
+
+        7:   ./analyze.sh testdir
+
+        
+    =>   Directory analysis:
+        Total files: 3
+        Text files (.txt): 2
+
+
+
+        8:   ./analyze.sh
+
+
+    =>    Error: Please provide exactly one argument.
