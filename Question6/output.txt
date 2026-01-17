@@ -1,0 +1,33 @@
+OUTPUT:
+
+ 
+            1:     mkdir Question6
+            
+=> NO OUTPUT
+
+            2:     cd Question6
+
+=>NO OUTPUT
+
+            3:     cat > input.txt <<EOL
+                      Linux is a powerful and flexible operating system used worldwide
+                      It allows multitasking, networking, and user management
+                      Shell scripting helps automate repetitive tasks efficiently
+                      EOL
+
+=> NO 0UTPUT
+
+            4:      nano metrics.sh
+
+=> Nano editor opened
+
+            5:      chmod +x metrics.sh
+
+=> NO OUPUT
+
+            6:          ./metrics.sh
+
+=>                         Longest word: multitasking
+                           Shortest word: a
+                           Average word length: 6.45
+                           Total unique words: 23

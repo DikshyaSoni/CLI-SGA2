@@ -1,0 +1,17 @@
+COMMAND:
+
+            1:     mkdir Question6
+
+            2:     cd Question6
+
+            3:     cat > input.txt <<EOL
+                      Linux is a powerful and flexible operating system used worldwide
+                      It allows multitasking, networking, and user management
+                      Shell scripting helps automate repetitive tasks efficiently
+                      EOL
+
+            4:      nano metrics.sh
+
+            5:      chmod +x metrics.sh
+
+            6:          ./metrics.sh

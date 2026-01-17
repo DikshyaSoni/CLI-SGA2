@@ -1,0 +1,5 @@
+aeiou
+apple
+banana
+orange
+umbrella

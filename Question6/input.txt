@@ -1,0 +1,3 @@
+Linux is a powerful and flexible operating system used worldwide
+It allows multitasking, networking, and user management
+Shell scripting helps automate repetitive tasks efficiently

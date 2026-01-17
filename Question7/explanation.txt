@@ -1,0 +1,42 @@
+EXPLANATION:
+
+
+1:   mkdir Question7
+
+=> Explanation:  Create folder for Question 7 files
+ 
+2:   cd Question7
+
+=> Explanation:  Move into the folder Question 7 files
+
+3:  cat > textfile.txt <<EOL
+
+               aeiou rhythm Sky apple banana Crypt
+               orange fly try Umbrella
+               EOL
+
+=> Explanation:  Create sample text file for word patterns
+
+4:  nano patterns.sh
+
+=> Explanation:  Create shell script to categorize words into vowels, consonants, and mixed
+
+5:  chmod +x patterns.sh
+
+=> Explanation:  Make the script executable
+
+6:  ./patterns.sh
+
+=> Explanation:  Run the script to generate vowels.txt, consonants.txt, and mixed.txt
+
+7:  cat vowels.txt
+
+=> Explanation:  Check words with only vowels
+
+8:  cat consonants.txt
+
+=> Explanation:  Check words with only consonants
+
+9:  cat mixed.txt
+
+=> Explanation:  Check words containing both vowels and consonants starting with consonant

@@ -1,0 +1,24 @@
+COMMAND:
+
+1:   mkdir Question7
+
+2:   cd Question7
+
+3:  cat > textfile.txt <<EOL
+
+               aeiou rhythm Sky apple banana Crypt
+               orange fly try Umbrella
+               EOL
+
+4:  nano patterns.sh
+
+
+5:  chmod +x patterns.sh
+
+6:  ./patterns.sh
+
+7:  cat vowels.txt
+
+8:  cat consonants.txt
+
+9:  cat mixed.txt

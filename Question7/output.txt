@@ -1,0 +1,50 @@
+OUTPUT :
+
+
+1:   mkdir Question7
+
+=>   NO OUTPUT
+
+2:   cd Question7
+
+=>   NO OUTPUT
+
+3:  cat > textfile.txt <<EOL
+
+               aeiou rhythm Sky apple banana Crypt
+               orange fly try Umbrella
+               EOL
+
+=>   NO OUTPUT
+
+4:  nano patterns.sh
+
+=>  Nano editor open
+
+5:  chmod +x patterns.sh
+
+=>   NO OUTPUT
+
+6:  ./patterns.sh
+
+=>   NO OUTPUT
+
+7:  cat vowels.txt
+
+=>  aeiou
+
+8:  cat consonants.txt
+
+=>   rhythm
+     sky
+     crypt
+     fly
+     try
+
+9:  cat mixed.txt
+
+=>   aeiou
+     apple
+     banana
+     orange
+     umbrella
