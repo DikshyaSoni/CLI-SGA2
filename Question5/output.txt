@@ -1,0 +1,46 @@
+OUTPUT : 
+
+
+
+    1:    mkdir Question5
+
+=>    No Output
+
+    2:    cd Question5
+
+=>    No Output 
+
+    3:    mkdir dirA dirB
+
+            echo "Hello World" > dirA/file1.txt
+            echo "This is file2" > dirA/file2.txt
+            echo "Same content" > dirA/file3.txt
+
+            echo "Hello World" > dirB/file1.txt
+            echo "Different content" > dirB/file3.txt
+            echo "Only in B" > dirB/file4.txt
+
+=>    NO Output
+
+    4:    nano sync.sh
+
+=>     No Output
+
+
+    5:    chmod +x sync.sh
+
+=>     No OUTPUT
+
+    6:    ./sync.sh
+
+=>         Files only in dirA:
+                 file2.txt
+
+           Files only in dirB:
+                  file4.txt
+
+           Files with same name and content check:
+                  file1.txt: DIFFERENT content
+                  file3.txt: DIFFERENT content
+
+

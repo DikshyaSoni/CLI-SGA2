@@ -1,0 +1,24 @@
+COMMAND:
+
+    1:    mkdir Question5
+
+    2:    cd Question5
+
+    3:    mkdir dirA dirB
+
+            echo "Hello World" > dirA/file1.txt
+            echo "This is file2" > dirA/file2.txt
+            echo "Same content" > dirA/file3.txt
+
+            echo "Hello World" > dirB/file1.txt
+            echo "Different content" > dirB/file3.txt
+            echo "Only in B" > dirB/file4.txt
+
+    4:    nano sync.sh
+
+
+    5:    chmod +x sync.sh
+
+    6:    ./sync.sh
+
+
