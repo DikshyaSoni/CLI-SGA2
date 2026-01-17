@@ -1,0 +1,58 @@
+OUTPUTS:
+
+      1:      mkdir Question3
+
+      =>      NO OUPUT
+
+      2:      cd Question3
+
+      =>      NO OUPUT
+
+      3:      cat > marks.txt <<EOL
+              101, Alice, 45, 32, 40
+              102, Bob, 50, 50, 50
+              103, Charlie, 30, 34, 40
+              104, David, 20, 25, 15
+              105, Eve, 33, 33, 33
+              EOL
+
+      =>      NO OUPUT
+
+      4:      cat marks.txt
+
+      =>      101, Alice, 45, 32, 40
+              102, Bob, 50, 50, 50
+              103, Charlie, 30, 34, 40
+              104, David, 20, 25, 15
+              105, Eve, 33, 33, 33
+
+      5:      nano validate_results.sh
+
+      =>      (nano editor opened)
+    
+
+      6:      chmod +x validate_results.sh
+
+      =>      NO OUTPUT 
+
+      7:      ./validate_results.sh
+
+      =>      101, Alice failed in exactly one subject
+              102, Bob passed in all subjects
+              103, Charlie failed in exactly one subject
+              105, Eve passed in all subjects
+              Number of students who failed in exactly one subject: 2
+              Number of students who passed in all subjects: 2
+
+      8:      ./validate_results.sh > result.txt
+
+      =>      NO OUTPUT
+
+      9:      cat result.txt
+
+      =>     101, Alice failed in exactly one subject
+             102, Bob passed in all subjects
+             103, Charlie failed in exactly one subject
+             105, Eve passed in all subjects
+             Number of students who failed in exactly one subject: 2
+             Number of students who passed in all subjects: 2

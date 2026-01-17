@@ -1,0 +1,6 @@
+101, Alice failed in exactly one subject
+102, Bob passed in all subjects
+103, Charlie failed in exactly one subject
+105, Eve passed in all subjects
+Number of students who failed in exactly one subject: 2
+Number of students who passed in all subjects: 2
