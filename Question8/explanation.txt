@@ -1,0 +1,44 @@
+      EXPLANATION:   
+         
+          1:    mkdir Question8
+
+=> Explanation : Create folder for Question 8
+
+          2:    cd Question8
+
+=> Explanation : Move into the folder Question 8 files
+
+          3:    mkdir text_dir
+
+=> Explanation : Create sample directory to move files from
+
+          4:    cd text_dir
+
+=> Explanation : Move into the folder text_dir
+
+          5:    touch file1.txt file2.txt file3.txt file4.txt
+
+=> Explanation : Create empty files for testing
+
+          6:    cd ..
+
+=> Explanation :  go to folder Question8 back
+          7:    nano bg_move.sh
+
+=> Explanation : Create shell script to move files in background to backup/
+
+
+          8:    chmod +x bg_move.sh
+
+=> Explanation : Make script executable
+
+
+          9:    ./bg_move.sh text_dir
+
+=> Explanation : Run script, displays PID of each background process and moves files to backup/
+
+          10:   ls text_dir
+         
+          11:   ls text_dir/backup
+
+=> Explanation : Verify that all files were moved to backup directory

@@ -1,0 +1,23 @@
+COMMAND:
+          1:    mkdir Question8
+
+          2:    cd Question8
+
+          3:    mkdir text_dir
+
+          4:    cd text_dir
+
+          5:    touch file1.txt file2.txt file3.txt file4.txt
+
+          6:    cd ..
+
+          7:    nano bg_move.sh
+
+
+          8:    chmod +x bg_move.sh
+
+          9:    ./bg_move.sh text_dir
+
+          10:   ls text_dir
+
+          11:   ls text_dir/backup

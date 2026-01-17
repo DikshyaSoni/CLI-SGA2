@@ -1,0 +1,50 @@
+        OUTPUT:
+
+         
+          1:    mkdir Question8
+
+     =>      NO OUTPUT    
+
+          2:    cd Question8
+
+=>           NO OUTPUT
+
+          3:    mkdir text_dir
+
+=>           NO OUTPUT
+
+          4:    cd text_dir
+
+=>           NO OUTPUT
+
+          5:    touch file1.txt file2.txt file3.txt file4.txt
+
+=>           NO OUTPUT
+
+          6:    cd ..
+
+=>           NO OUTPUT
+
+          7:    nano bg_move.sh
+
+=>           NO OUTPUT
+
+          8:    chmod +x bg_move.sh
+
+=>           NO OUTPUT
+
+          9:    ./bg_move.sh text_dir
+
+=>         Moving file1.txt in background with PID: 39323
+           Moving file2.txt in background with PID: 39325
+           Moving file3.txt in background with PID: 39327
+           Moving file4.txt in background with PID: 39329
+           All files moved to text_dir/backup
+
+          10:   ls text_dir
+
+=>         backup
+
+          11:   ls text_dir/backup
+
+=>          file1.txt  file2.txt  file3.txt  file4.txt
